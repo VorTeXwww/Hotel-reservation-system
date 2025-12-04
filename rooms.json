@@ -1,0 +1,20 @@
+[
+  {
+    "number": 101,
+    "room_type": "single",
+    "price_per_night": 100.0,
+    "is_occupied": false
+  },
+  {
+    "number": 102,
+    "room_type": "double",
+    "price_per_night": 150.0,
+    "is_occupied": false
+  },
+  {
+    "number": 103,
+    "room_type": "suite",
+    "price_per_night": 250.0,
+    "is_occupied": false
+  }
+]
