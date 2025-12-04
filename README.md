@@ -5,21 +5,37 @@
 
 ## Структура проекта
 hotel-reservation-system/
+
 ├── exceptions.py # Иерархия исключений
+
 ├── models.py # Room, Guest, Booking, BookingStatus
+
 ├── hotel_service.py # Hotel + HotelService
+
 ├── storage_json.py # JSON I/O
+
 ├── payments.py # Invoice
+
 ├── hotel_app.py # Консольное приложение (ГЛАВНЫЙ ФАЙЛ)
+
 ├── seed_data.py # Инициализация данных
+
 ├── tests/
+
 │ └── test_hotel_system.py # 12 юнит-тестов
+
 ├── rooms.json
+
 ├── guests.json
+
 ├── uml_diagram.puml
+
 ├── uml_diagram.png
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore
 ## Функционал 
 
@@ -63,11 +79,17 @@ Hotel Reservation System - Main Menu
 
 14.Exit
 HotelError
+
 ├── EntityNotFoundError
+
 ├── BookingConflictError
+
 ├── InvalidOperationError
+
 ├── JsonStorageError
+
 └── PaymentError
+
 ## ООП принципы
 
 - **Инкапсуляция**: приватные методы и валидация
